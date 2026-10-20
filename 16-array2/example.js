@@ -258,4 +258,4 @@ const temp1 = products.filter((item) => item.stock > 0)
     temp1.map(item => { return item.name })
     .forEach((item) => console.log(item));
 
-    // .
+    // .1
