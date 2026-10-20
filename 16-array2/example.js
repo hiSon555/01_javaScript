@@ -256,4 +256,6 @@ const temp1 = products.filter((item) => item.stock > 0)
     .sort((a, b) => { return a.price - b.price });
 
     temp1.map(item => { return item.name })
-    .forEach((item) => console.log(item));   
+    .forEach((item) => console.log(item));
+
+    // .
